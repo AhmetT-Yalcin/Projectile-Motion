@@ -19,10 +19,12 @@ The application computes:
 
 ### Installation
 Requirements
-* pip install tkinter
-* pip install customtkinter
-* pip install matplotlib
-* pip install numpy
+```
+pip install tkinter
+pip install customtkinter
+pip install matplotlib
+pip install numpy
+```
 
 ### Default Login Credentials
 * Admin User:
@@ -34,5 +36,20 @@ Requirements
 
 ⚠️ Important: Change these default passwords after first login!
 
+### Usage
+Basic Workflow
+1. Login with your credentials
+2. Enter projectile parameters:
+ - Projectile name
+ - Initial velocity (m/s)
+ - Target coordinates (x, y, z in meters)
+3. Calculate to see trajectory options
+4. Save your projectile configuration for future use
+5. Plot Graph to visualize the trajectory
 
-
+### Admin Features
+- Admins can access additional functions through the User Operations menu:
+- Create new users
+- Reset user passwords
+- Delete users
+- Change their own password
